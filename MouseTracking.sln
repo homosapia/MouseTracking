@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35312.102
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MouseTracking", "MouseTracking\MouseTracking.csproj", "{0AA4CCB6-79A3-4A6D-9E27-67F2F822D762}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0AA4CCB6-79A3-4A6D-9E27-67F2F822D762}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0AA4CCB6-79A3-4A6D-9E27-67F2F822D762}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0AA4CCB6-79A3-4A6D-9E27-67F2F822D762}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0AA4CCB6-79A3-4A6D-9E27-67F2F822D762}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0708C4B9-E0AE-4232-AA5A-540D13341406}
+	EndGlobalSection
+EndGlobal
