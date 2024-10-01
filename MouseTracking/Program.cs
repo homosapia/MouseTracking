@@ -1,4 +1,9 @@
+using MouseTracking.Services;
+
 var builder = WebApplication.CreateBuilder(args);
+
+
+builder.Services.AddTransient<DataBaseServices>();
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
