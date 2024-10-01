@@ -1,4 +1,5 @@
 using Microsoft.AspNetCore.Mvc;
+using MouseTracking.Models;
 
 namespace MouseTracking.Controllers
 {
@@ -12,10 +13,17 @@ namespace MouseTracking.Controllers
             _logger = logger;
         }
 
+        [HttpGet]
         public IActionResult Index()
         {
             return View();
         }
 
+        [HttpPost]
+        [Route("save")]
+        public IActionResult SaveMouseData([FromBody] MouseDataRequest mouseMovementData)
+        {
+            return Ok("Данные сохранены получены");
+        }
     }
 }
